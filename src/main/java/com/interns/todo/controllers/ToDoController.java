@@ -27,7 +27,7 @@ public class ToDoController {
 
   @GetMapping("/")
   public String printString() {
-    return "ToDoList Application Software";
+    return "ToDoList Application";
   }
 
   @GetMapping("/todo")
